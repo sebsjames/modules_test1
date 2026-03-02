@@ -4,7 +4,8 @@ I've taken one of the classes from sebsjames/maths and tried to compile it as a 
 
 `sm::range` is normally `#included` as a header file. Here, I've turned it into a module, and made a simple demo program called use_range.cpp.
 
-Building this project requires cmake 3.28 or above and the ninja build system.
+Building this project requires at least cmake 3.28 and gcc 14 or clang
+16. It also requires the ninja build system (version 1.11.1 works).
 
 ```bash
 mkdir build
