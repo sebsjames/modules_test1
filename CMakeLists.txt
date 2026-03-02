@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.28)
 
-project(use_range LANGUAGES CXX)
+project(modules_test1 LANGUAGES CXX)
 
 set(CMAKE_CXX_FLAGS "-g -Wfatal-errors")
 
