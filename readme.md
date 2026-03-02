@@ -4,8 +4,10 @@ I've taken one of the classes from sebsjames/maths and tried to compile it as a 
 
 `sm::range` is normally `#included` as a header file. Here, I've turned it into a module, and made a simple demo program called use_range.cpp.
 
-Building this project requires at least cmake 3.28 and gcc 14 or clang
+Building this project requires at least cmake 3.28.5* and gcc 14 or clang
 18. It also requires the ninja build system (version 1.11.1 works).
+
+* See [this discussion with Ben Boeckel from Kitware](https://discourse.cmake.org/t/how-can-i-be-sure-that-a-c-20-module-is-not-re-compiled-after-a-non-module-code-change/15535/8).
 
 ```bash
 mkdir build
